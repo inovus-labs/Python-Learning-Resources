@@ -18,4 +18,22 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### ⭐️ Scrimba
 
+**[Scrimba](https://scrimba.com/)** is the next-generation platform for learning how to code. It is an interactive learning platform for mainly frontend developers. But they recently started adding courses for the backend as well. The screencasts enable learners to interact with the code directly in the player. The content on Scrimba is a mix between community generated tutorials, and courses initiated by the Scrimba team itself.
+
+Some of them are:
+
+- 🔰 [Python Basics](https://scrimba.com/playlist/peaXwtB) (9 Interactive Screencasts)
+- 🔰 [Python | Introduction to Programming](https://scrimba.com/playlist/p5gW5AD) (21 Interactive Screencasts)
+- 🔰 [Learn Python for free](https://scrimba.com/learn/python) (59 Interactive Screencasts)
+
 [![image](https://user-images.githubusercontent.com/44474792/123522683-7809f600-d6dc-11eb-852f-184cb0f16421.jpg)](https://scrimba.com/learn/python)
+
+### ⭐️ Programiz
+
+**[Programiz](https://www.programiz.com/python-programming)** provides a beginner-friendly mobile app. It contains byte-size lessons and an integrated Python interpreter. **Learn Python: Programiz** is a free app that makes it easy to learn Python and try out what you have learned in real-time. If the platform suites, one can go for a subscription **Learn Python: Programiz Pro**, that offers challenges ans certification.
+
+- 🔰 [Web Platform](https://www.programiz.com/python-programming)
+- 🔰 [Android Application](https://play.google.com/store/apps/details?id=com.programiz.learnpython)
+- 🔰 [IOS Application](https://apps.apple.com/app/apple-store/id1472188189?mt=8)
+
+[![image](https://user-images.githubusercontent.com/44474792/123523554-da192a00-d6e1-11eb-887c-abcbf107c70b.jpg)](https://www.programiz.com/python-programming)
