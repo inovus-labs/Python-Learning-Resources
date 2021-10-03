@@ -39,4 +39,23 @@ Some of them are:
 [![image](https://user-images.githubusercontent.com/44474792/123523554-da192a00-d6e1-11eb-887c-abcbf107c70b.jpg)](https://www.programiz.com/python-programming)
 
 # **Example Programs**
-- [Hello World](https://github.com/decoded-cipher/Learn.py/blob/master/HelloWorld.py)
+## **1.Hello World Program**
+Its a simple program  that describes how to input your name , age , designation and your three skills.You can workout this program as ice breaking one..
+#### Source Code
+```ino 
+print("welcome to world of coding")
+print("please fill the details")
+name=input("enter your name -")
+age=input("enter your age -")
+designation=input("enter your designation -")
+list=[]
+for i in range(3):
+    skills=input("please enter your skills:\n")
+    list.append(skills)
+print("my name is :",name)
+print("my age is :",age)
+print("I am ",designation)
+print('i am mastered in ',*list,sep= "," )
+```
+#### output
+![output 1](https://user-images.githubusercontent.com/81223681/135761760-e09c79ac-3ee4-4cfd-996d-cc11811a12e6.png)
