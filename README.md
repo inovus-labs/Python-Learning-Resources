@@ -59,3 +59,23 @@ print('i am mastered in ',*list,sep= "," )
 ```
 #### output
 ![output 1](https://user-images.githubusercontent.com/81223681/135761760-e09c79ac-3ee4-4cfd-996d-cc11811a12e6.png)
+
+## **2.Multiplication Table Program**
+Yeah! Ice braeked come on lets do an another program.This program is also a simple program but try it to ensure you are a good learner..
+#### Source Code
+```ino 
+num=int(input("enter the nuber :"))
+if (num%2)==0:
+    print("{0} is even number".format(num))
+    print ("multiplication table ")
+    for i in range(1,11):
+        print(num,'x',i,'=',num*i)
+else:
+    print("{0} is odd number".format(num))
+    print ("multiplication table ")
+    for i in range(1,11):
+        print(num,'x',i,'=',num*i)
+```
+#### output
+![output 2](https://user-images.githubusercontent.com/81223681/135762192-93e5053f-7f5d-4ed0-8520-ef64da794403.png)
+
