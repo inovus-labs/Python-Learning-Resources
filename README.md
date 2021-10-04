@@ -61,7 +61,7 @@ print('i am mastered in ',*list,sep= "," )
 ![output 1](https://user-images.githubusercontent.com/81223681/135761760-e09c79ac-3ee4-4cfd-996d-cc11811a12e6.png)
 
 ## **2.Multiplication Table Program**
-Yeah! Ice braked come on lets do an another program.This program is also a simple program but try it to ensure you are a good learner..
+Yeah! Ice breaked come on lets do an another program.This program is also a simple program but try it to ensure you are a good learner..
 #### Source Code
 ```ino 
 num=int(input("enter the nuber :"))
