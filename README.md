@@ -98,3 +98,103 @@ for i in range(rows, 0, -1):
 #### output
 ![output 3](https://user-images.githubusercontent.com/81223681/135836979-2cc3605e-ba5f-4b30-ad9d-35a669ccaa7f.png)
 
+## **4.Calculator Program**
+In this program we program a calculator that will do operations like
+
+- 1.Addition
+- 2.Substraction
+- 3.Multiplication
+-  3.Division
+-  4.Square root of a number
+- 5.Power of a Number
+
+So lets go to the program..
+#### Source Code
+```ino 
+print("Lets start calculating...")
+def script():
+    # define functions  
+    def add(x, y):  
+        return x + y 
+    def subtract(x, y): 
+        return x - y 
+    def multiply(x, y):  
+        return x * y 
+    def divide(x, y): 
+        return x / y 
+    def percentage(x,y):
+        return (x/y)*100
+    def squart(x):
+        return 
+    def power(x,y):
+        return
+    print("Select operation.")  
+    print("1.Add")  
+    print("2.Subtract")  
+    print("3.Multiply")  
+    print("4.Divide")
+    print("5.percentage")
+    print("6.squareroot")
+    print("7.power of n") 
+  
+    choice = input("Enter choice(1/2/3/4/5/6/7):")  
+  
+    num1 = int(input("Enter first number: "))  
+    num2 = int(input("Enter second number: "))  
+  
+    if choice == '1':  
+        print(num1,"+",num2,"=", add(num1,num2))  
+    elif choice == '2':  
+        print(num1,"-",num2,"=", subtract(num1,num2))  
+  
+    elif choice == '3':  
+        print(num1,"*",num2,"=", multiply(num1,num2))  
+    elif choice == '4':  
+        print(num1,"/",num2,"=", divide(num1,num2))
+    elif choice == '5':
+        print("percentage=",percentage(num1,num2),"%")
+    elif choice == '6':
+        number = int(input("enter a number: "))
+        sqrt = number ** 0.5
+        print("square root:", sqrt)
+    elif choice == '7':
+        num = int(input("Enter the number of which you have to find power: "))
+        pw = int(input("Enter the power: "))
+        kj = 1
+        for n in range(pw):
+            kj = kj*num
+        print(kj)
+    else:  
+        print("Invalid input") 
+    restart =input("Would you like to continue ")
+    if restart == "yes" or restart == "y":
+            script()
+    if restart == "n" or restart == "no":
+            print ("Thank you for using me")
+script()
+
+```
+#### output
+![output 4](https://user-images.githubusercontent.com/81223681/135838857-34cdcdde-44a1-4f8a-99c7-b000efe7c0e8.png)
+
+## **5.**
+Lets Go to next program , In the next program we will  print a simple pattern 
+#### Source Code
+```ino 
+rows=int(input("Enter the number of rows :"))
+for i in range(0, rows):
+    for j in range(0, i + 1):
+        print("#", end=' ')
+    print("\r")
+
+for i in range(rows, 0, -1):
+    for j in range(0, i - 1):
+        print("#", end=' ')
+    print("\r")
+
+```
+#### output
+![output 5](https://user-images.githubusercontent.com/81223681/135836979-2cc3605e-ba5f-4b30-ad9d-35a669ccaa7f.png)
+
+
+
