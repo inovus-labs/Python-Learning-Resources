@@ -57,7 +57,7 @@ print("my age is :",age)
 print("I am ",designation)
 print('i am mastered in ',*list,sep= "," )
 ```
-#### output
+#### Output
 ![output 1](https://user-images.githubusercontent.com/81223681/135761760-e09c79ac-3ee4-4cfd-996d-cc11811a12e6.png)
 
 ## **2.Multiplication Table Program**
@@ -76,7 +76,7 @@ else:
     for i in range(1,11):
         print(num,'x',i,'=',num*i)
 ```
-#### output
+#### Output
 ![output 2](https://user-images.githubusercontent.com/81223681/135762192-93e5053f-7f5d-4ed0-8520-ef64da794403.png)
 
 ## **3.Pattern Printing Program**
@@ -95,7 +95,7 @@ for i in range(rows, 0, -1):
     print("\r")
 
 ```
-#### output
+#### Output
 ![output 3](https://user-images.githubusercontent.com/81223681/135836979-2cc3605e-ba5f-4b30-ad9d-35a669ccaa7f.png)
 
 ## **4.Calculator Program**
@@ -174,7 +174,7 @@ def script():
 script()
 
 ```
-#### output
+#### Output
 ![output 4](https://user-images.githubusercontent.com/81223681/135838857-34cdcdde-44a1-4f8a-99c7-b000efe7c0e8.png)
 
 ## **5.Password Generator**
@@ -226,7 +226,7 @@ def script():
 script()
 
 ```
-#### output
+#### Output
 ![output 5](https://user-images.githubusercontent.com/81223681/135841667-1e3a3a17-5e0e-4278-8a2e-e85e3d09a025.png)
 
 
@@ -251,11 +251,11 @@ print("You are",
                                                                                      today.year) < (born.month,born.year)),"days old")
 
 ```
-#### output
+#### Output
 ![output 6](https://user-images.githubusercontent.com/81223681/135843146-bd0f7106-1d22-494d-90ca-8c25533f6686.png)
 
 
-## **7.Guess the Number Game **
+## **7.Guess the Number Game**
 In this Example program we are going to create a Guess the number game Its logic is simple so lets check it out
 #### Source Code
 ```ino 
@@ -276,8 +276,8 @@ while guess != num:
         print("nope, sorry. try again!")
 
 ```
-#### output
-![output 7]()
+#### Output
+![output 7](https://user-images.githubusercontent.com/81223681/135884211-2e0d324b-ef32-4744-ab6d-07badf2dd4ea.png)
 
 
 
