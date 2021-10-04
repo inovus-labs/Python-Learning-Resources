@@ -181,20 +181,62 @@ script()
 Lets Go to next program , In the next program we will  print a simple pattern 
 #### Source Code
 ```ino 
-rows=int(input("Enter the number of rows :"))
-for i in range(0, rows):
-    for j in range(0, i + 1):
-        print("#", end=' ')
-    print("\r")
-
-for i in range(rows, 0, -1):
-    for j in range(0, i - 1):
-        print("#", end=' ')
-    print("\r")
+<Deatails should be filled>
 
 ```
 #### output
-![output 5](https://user-images.githubusercontent.com/81223681/135836979-2cc3605e-ba5f-4b30-ad9d-35a669ccaa7f.png)
+![output 5]()
+
+## **6.**
+Lets Go to next program , In the next program we will  print a simple pattern 
+#### Source Code
+```ino 
+<Deatails should be filled>
+
+```
+#### output
+![output 6]()
+
+## **7.**
+Lets Go to next program , In the next program we will  print a simple pattern 
+#### Source Code
+```ino 
+<Deatails should be filled>
+
+```
+#### output
+![output 7]()
+
+## **8.**
+Lets Go to next program , In the next program we will  print a simple pattern 
+#### Source Code
+```ino 
+<Deatails should be filled>
+
+```
+#### output
+![output 8]()
+
+## **9.**
+Lets Go to next program , In the next program we will  print a simple pattern 
+#### Source Code
+```ino 
+<Deatails should be filled>
+
+```
+#### output
+![output 9]()
+
+## **10.**
+Lets Go to next program , In the next program we will  print a simple pattern 
+#### Source Code
+```ino 
+<Deatails should be filled>
+
+```
+#### output
+![output 10]()
+
 
 
 
