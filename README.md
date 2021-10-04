@@ -80,21 +80,21 @@ else:
 ![output 2](https://user-images.githubusercontent.com/81223681/135762192-93e5053f-7f5d-4ed0-8520-ef64da794403.png)
 
 ## **3.Pattern Printing Program**
-Yeah! Ice braked come on lets do an another program.This program is also a simple program but try it to ensure you are a good learner..
+Lets Go to next program , In the next program we will  print a simple pattern 
 #### Source Code
 ```ino 
-num=int(input("enter the nuber :"))
-if (num%2)==0:
-    print("{0} is even number".format(num))
-    print ("multiplication table ")
-    for i in range(1,11):
-        print(num,'x',i,'=',num*i)
-else:
-    print("{0} is odd number".format(num))
-    print ("multiplication table ")
-    for i in range(1,11):
-        print(num,'x',i,'=',num*i)
+rows=int(input("Enter the number of rows :"))
+for i in range(0, rows):
+    for j in range(0, i + 1):
+        print("#", end=' ')
+    print("\r")
+
+for i in range(rows, 0, -1):
+    for j in range(0, i - 1):
+        print("#", end=' ')
+    print("\r")
+
 ```
 #### output
-![output 2](https://user-images.githubusercontent.com/81223681/135762192-93e5053f-7f5d-4ed0-8520-ef64da794403.png)
+![output 3](https://user-images.githubusercontent.com/81223681/135836979-2cc3605e-ba5f-4b30-ad9d-35a669ccaa7f.png)
 
