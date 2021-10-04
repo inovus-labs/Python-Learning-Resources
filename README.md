@@ -255,11 +255,25 @@ print("You are",
 ![output 6](https://user-images.githubusercontent.com/81223681/135843146-bd0f7106-1d22-494d-90ca-8c25533f6686.png)
 
 
-## **7.**
-Lets Go to next program , In the next program we will  print a simple pattern 
+## **7.Guess the Number Game **
+In this Example program we are going to create a Guess the number game Its logic is simple so lets check it out
 #### Source Code
 ```ino 
-<Deatails should be filled>
+import random
+
+print("wekcome to guessing game ")
+num = random.randint(1, 10)
+guess = None
+
+while guess != num:
+    guess = input("guess a number between 1 and 10: ")
+    guess = int(guess)
+
+    if guess == num:
+        print("congratulations! you won!")
+        break
+    else:
+        print("nope, sorry. try again!")
 
 ```
 #### output
