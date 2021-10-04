@@ -177,25 +177,83 @@ script()
 #### output
 ![output 4](https://user-images.githubusercontent.com/81223681/135838857-34cdcdde-44a1-4f8a-99c7-b000efe7c0e8.png)
 
-## **5.**
-Lets Go to next program , In the next program we will  print a simple pattern 
+## **5.Password Generator**
+Lets Create a password Generator using Python . Compared to other programs this program is a difficult one .
+
 #### Source Code
 ```ino 
-<Deatails should be filled>
+print("DO YOU NEED PASSWORDS ? ")
+print("I-N-O-S-A-F-E is here! lets make new passwords that improve your security. ")
+def script():
+    def restart():
+        return 
+    import random
+    chars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    chars1="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+    chars2="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*"
+    print("Select password type.")  
+    print("1.Standard")  
+    print("2.Secure")  
+    print("3.Ultra")
+    choice = input("Enter your choice(1/2/3):")
+    number=int(1)
+    length=int(16)
+    if choice == '1': 
+        for p in range(number):
+            password="INO_"
+        for c in range(length):
+                password += random.choice(chars)
+        print(password)
+    elif choice == '2':
+        for p in range(number):
+            password="INO_"
+        for c in range(length):
+                password += random.choice(chars1)
+        print(password)
+    elif choice == '3':
+        for p in range(number):
+            password="INO_"
+        for c in range(length):
+                password += random.choice(chars2)
+        print(password)
+    else:  
+        print("Invalid input") 
+    restart =input("Would you like to continue ")
+    if restart == "yes" or restart == "y":            
+             script()
+    if restart == "n" or restart == "no":
+            print ("Thank you for using me")
+script()
 
 ```
 #### output
-![output 5]()
+![output 5](https://user-images.githubusercontent.com/81223681/135841667-1e3a3a17-5e0e-4278-8a2e-e85e3d09a025.png)
 
-## **6.**
-Lets Go to next program , In the next program we will  print a simple pattern 
+
+## **6.Age Calculator**
+We created a calculator  previously with all operations. But in this program we create a Age calculator in which use input his date of birth and user will get age in output. what are yow waiting lets do this..
 #### Source Code
 ```ino 
-<Deatails should be filled>
+from datetime import datetime, date
+  
+born=input("Enter your date of birth  in  the format(DD/MM/YYYY) :")
+print("Your  date of birth is  ",born)
+  
+born = datetime.strptime(born, "%d/%m/%Y").date()
+  
+today = date.today()
+print("Yeah It is true!")
+print("You are",
+      today.year - born.year - ((today.month,
+                                          today.day) < (born.month,
+                                                        born.day)),"years,",today.month - born.month -((today.year,
+                                                                    today.day) < (born.year,born.day)),"month and",(today.day - born.day or born.day - today.day) -((today.month,
+                                                                                     today.year) < (born.month,born.year)),"days old")
 
 ```
 #### output
-![output 6]()
+![output 6](https://user-images.githubusercontent.com/81223681/135843146-bd0f7106-1d22-494d-90ca-8c25533f6686.png)
+
 
 ## **7.**
 Lets Go to next program , In the next program we will  print a simple pattern 
@@ -207,35 +265,7 @@ Lets Go to next program , In the next program we will  print a simple pattern
 #### output
 ![output 7]()
 
-## **8.**
-Lets Go to next program , In the next program we will  print a simple pattern 
-#### Source Code
-```ino 
-<Deatails should be filled>
 
-```
-#### output
-![output 8]()
-
-## **9.**
-Lets Go to next program , In the next program we will  print a simple pattern 
-#### Source Code
-```ino 
-<Deatails should be filled>
-
-```
-#### output
-![output 9]()
-
-## **10.**
-Lets Go to next program , In the next program we will  print a simple pattern 
-#### Source Code
-```ino 
-<Deatails should be filled>
-
-```
-#### output
-![output 10]()
 
 
 
