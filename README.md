@@ -405,4 +405,21 @@ hangman()
 ![Hangman 1](https://user-images.githubusercontent.com/81381146/136016743-ebe9bcd7-88c5-42a8-981f-b8a2a8961c81.png)
 ![Hangman 2 png](https://user-images.githubusercontent.com/81381146/136016749-803e0cf9-56ea-4b7e-9ebd-39e4fa60c082.png)
 
+## *Weight Converter**
+```py
+weight = int(input("Enter your weight : "))
+unit = input("Unit in which you entered the weight [(L)bs or (K)g ]: ")
+if unit.upper() == "L":
+    converted = weight*0.45
+    print(f"You are {converted} kilograms")
+else:
+    converted = weight/0.45
+    print(f"You are {converted} pounds")
+```
+## **Output**
+
+![2021-10-05 (4)](https://user-images.githubusercontent.com/81372148/136080744-e1786a04-1faa-479e-8abb-fec60b5c05fd.png)
+![2021-10-05 (5)](https://user-images.githubusercontent.com/81372148/136080831-8e843295-de43-451e-9743-a6270671cb59.png)
+    
+
 
