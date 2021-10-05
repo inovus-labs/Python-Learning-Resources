@@ -46,6 +46,10 @@ Some of them are:
 
 #
 
+### ⭐️ Snakify
+
+**[Snakify](https://snakify.org/en/)** offers an interactive manual of Python 3 programming language. They offers course from the beginning that is way different from the others. It gives a platform which contains the theory portions of Python from the very beginning and the editors to practice every portions.
+
 # **Example Programs**
 ## **1.Hello World Program**
 Its a simple program  that describes how to input your name , age , designation and your three skills.You can workout this program as ice breaking one..
