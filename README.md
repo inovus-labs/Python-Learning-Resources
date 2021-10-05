@@ -50,7 +50,7 @@ Some of them are:
 
 **[Snakify](https://snakify.org/en/)** offers an interactive manual of Python 3 programming language. They offers course from the beginning that is way different from the others. It gives a platform which contains the theory portions of Python from the very beginning and the editors to practice every portions.
 
-![Snakify1](https://user-images.githubusercontent.com/81372148/136075464-64d1c4d6-8a82-46fd-93fa-647517d2fbb2.png)(https://snakify.org/en/)
+[![Snakify1](https://user-images.githubusercontent.com/81372148/136075464-64d1c4d6-8a82-46fd-93fa-647517d2fbb2.png)](https://snakify.org/en/)
 
 # **Example Programs**
 ## **1.Hello World Program**
@@ -294,6 +294,10 @@ while guess != num:
 ![output 7](https://user-images.githubusercontent.com/81223681/135884211-2e0d324b-ef32-4744-ab6d-07badf2dd4ea.png)
 
 ## **7.Hangman Game**
+
+## **What is Hangman Game**
+
+Hangman game is a simple game for two or more players.This is actually a guessing game where one needs to guess the appropriate word based on number of dashes shown on the screen. As the name suggests, the player has to save the man from getting hanged. For this the player needs to make correct guess. If the guesses are correct then it will be victory. Whenever the player makes incorrect guesses, each part of the hangman will be displayed on the screen also with a warning message that shows the number of remaining turns/chances. If the player failed to guess the word, then that means he let the poor man die!! And that's the end of the game.
 
 ### **Source code**
 
