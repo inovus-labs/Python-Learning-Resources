@@ -2,7 +2,8 @@
 
 ## 💻 Introduction
 
-[Python](https://www.python.org/) is an interpreted **high-level general-purpose programming language**. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+[Python](https://www.python.org/) is an interpreted **high-level general-purpose programming language**. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.
+Python is a programming language that lets you work quickly and integrate systems more efficiently. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
 
 ## 💻 How to install & Configure
 
