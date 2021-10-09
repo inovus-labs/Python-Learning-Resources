@@ -44,7 +44,7 @@ Some of them are:
 
 **[Codecademy](https://www.codecademy.com/)** is an American online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS. 
 
-[![image](https://user-images.githubusercontent.com/44474792/136656928-2a461cc4-498d-4ced-bcb1-75445b5fc48b.png)](https://www.codecademy.com/catalog/language/python)
+[![image](https://user-images.githubusercontent.com/44474792/136657133-dd985f48-2c0b-408f-a018-6c0959c08485.png)](https://www.codecademy.com/catalog/language/python)
 
 ### ⭐️ Snakify
 
