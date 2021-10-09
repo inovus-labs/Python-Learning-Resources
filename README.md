@@ -6,6 +6,22 @@
 
 Python lets you work quickly and integrate systems more efficiently. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
 
+
+## 💻 Why Python?
+
+* However Python is an high level language, Python language is incredibly easy to use and learn for new beginners and newcomers. 
+
+* The python language is one of the most accessible programming languages available because it has simplified syntax and not complicated.
+
+* Due to its ease of learning and usage, python codes can be easily written and executed much faster than other programming languages.
+
+* One can also quickly experiment by changing the code base of python because it is an interpreted language which makes it even more popular among all kinds of developers.
+
+* Python is a programming language that supports the creation of a wide range of applications. Developers regard it as a great choice for Artificial Intelligence (AI), Machine Learning, and Deep Learning projects.
+
+* The Python language comes with many libraries and frameworks that make coding easy. This also saves a significant amount of time.
+The most popular libraries are NumPy, which is used for scientific calculations; SciPy for more advanced computations; and scikit, for learning data mining and data analysis.
+
 ## 💻 How to install & Configure
 
 [![image](https://user-images.githubusercontent.com/44474792/123229167-ac6e8e00-d4f3-11eb-997b-a7149c967010.jpg)](https://youtu.be/AKVRkB0fot0)
