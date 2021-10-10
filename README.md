@@ -28,6 +28,10 @@ The most popular libraries are NumPy, which is used for scientific calculations;
 
 ## 💻 Resource Links to get started
 
+ * Malayalam Python Programming Tutorial | Crossroads YouTube Channel
+
+   Playlist: https://youtube.com/playlist?list=PLY-ecO2csVHfbpOmWamlb8Mujjdnl1jks 
+
 ### ⭐️ HackerRank
 
 **[HackerRank](https://www.hackerrank.com/domains/python)** is a place where programmers from all over the world come together to solve problems in a wide range of Computer Science domains such as **Algorithms, Machine Learning, or Artificial Intelligence,** as well as to learn & practice different programming languages like **Python, JavaScript, C, C++, Java, Ruby** & much more...
