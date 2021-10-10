@@ -1,12 +1,12 @@
-## **2.Rock-Paper-Scissors Game**
+## **Rock-Paper-Scissors Game**
 
-## **What is Rock-Paper-Scissors Game?**
+### **What is Rock-Paper-Scissors Game?**
 
 Rock paper scissors is a hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V).  It has only two possible outcomes: a draw, or a win for one player and a loss for the other. A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.
 
-## **Source Code**
+### **Source Code**
 
-### **main.py**
+#### **main.py**
 ```py
 import random
 from graphic_view import *
@@ -111,7 +111,7 @@ Chances Left: ''',trial)
 main()
 ```
 
-### **graphic_view.py**
+#### **graphic_view.py**
 ```py
 scissor = '''
        Computer                                 Player
@@ -235,7 +235,7 @@ ComputerWins = ["",Rock1,paper1,scissor1]
 Tied = ["",Rock2,paper2,scissor2]
 ```
 
-### **intro.py**
+#### **intro.py**
 ```py
 from graphic_view import *
 import time
@@ -264,7 +264,7 @@ Type the number of the shape below
     ''')
 ```
 
-### **count.py**
+#### **count.py**
 ```py
 import time
 
@@ -275,7 +275,7 @@ def count():
         time.sleep(0.7)
 ```
 
-## **Output**
+### **Output**
 ![Sample](https://user-images.githubusercontent.com/81413791/136699786-1c4f693b-0d7a-4140-993b-aebe3714f7d6.jpg)
 
 
