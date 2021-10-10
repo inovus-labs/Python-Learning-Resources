@@ -1,7 +1,7 @@
 
-## **1.Hangman Game**
+## **Hangman Game**
 
-## **What is Hangman Game?**
+### **What is Hangman Game?**
 
 Hangman game is a simple game for two or more players.This is actually a guessing game where one needs to guess the appropriate word based on number of dashes shown on the screen. As the name suggests, the player has to save the man from getting hanged. For this the player needs to make correct guess. If the guesses are correct then it will be victory. Whenever the player makes incorrect guesses, each part of the hangman will be displayed on the screen also with a warning message that shows the number of remaining turns/chances. If the player failed to guess the word, then that means he let the poor man die!! And that's the end of the game.
 
