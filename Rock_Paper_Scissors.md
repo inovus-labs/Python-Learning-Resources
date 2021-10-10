@@ -110,6 +110,7 @@ Chances Left: ''',trial)
 
 main()
 ```
+
 ### **graphic_view.py**
 ```py
 scissor = '''
@@ -233,6 +234,7 @@ PlayerWins = ["",Rock,paper,scissor]
 ComputerWins = ["",Rock1,paper1,scissor1]
 Tied = ["",Rock2,paper2,scissor2]
 ```
+
 ### **intro.py**
 ```py
 from graphic_view import *
@@ -261,4 +263,19 @@ Type the number of the shape below
 3.Scissor
     ''')
 ```
+
+### **count.py**
+```py
+import time
+
+def count():
+    print("")
+    for item in ["Rock....","Paper....","Scissor...."]:
+        print(item,'\n')
+        time.sleep(0.7)
+```
+
+## **Output**
+![Sample](https://user-images.githubusercontent.com/81413791/136699786-1c4f693b-0d7a-4140-993b-aebe3714f7d6.jpg)
+
 
