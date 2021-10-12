@@ -40,3 +40,19 @@ After this, you can create the rules yourself! When the user inputs the word, yo
 
 *This is one of the excellent python project ideas for beginners. Reddit is a handy platform, and many people want to be online as much as they can. You can program a bot that monitors subreddits and reports whenever they find something useful. It will save Redditors a lot of time and provide helpful information with it.*
 
+**10)Python Command-Line Application**
+
+*Python is known for building outstanding command-line applications. You can create your program, which can help you send emails to other people. The program will ask your credentials and the content of the email, then send the data using your created command line.*
+
+**11)Alarm Clock**
+
+*This is one of the interesting python project ideas. People all across the globe use alarm clock applications. It is quite a simple Command Line Interface (CLI) Python application for an intermediate-level developer. However, this project isn’t your run-of-the-mill alarm clock. In this application, you can input YouTube links in a text file and design the application to read the file. If you set a particular time in the alarm clock, it will pick a random YouTube link from the text file and play the YouTube video.*
+
+**12)Tic-Tac-Toe**
+
+*We all have fond memories of playing Tic-Tac-Toe with our friends in school, don’t we? It is one of the most fun games you can play anywhere – all you need is a pen and paper! Usually, two players can play Tic-Tac-Toe at a time. The players create a 3×3 square grid. This is one of the coolest python project ideas. 
+
+While the first player puts “X” in any one of the squares, and the second player will put an “O” in any square. This process will continue until all the squares are filled with each player putting X and O alternatively. The player who succeeds in creating a horizontal, vertical, or diagonal with three consecutive X or O on the grid wins.
+
+You can use the Pygame library for building this project. Pygame is loaded with all the modules you need for computer graphics and sound.*
+
