@@ -23,3 +23,20 @@
 **6)Python Website Blocker**
 
 *When we surf the internet, many unwanted websites keep showing up. This is one of the useful python projects where you can build a program that blocks certain websites from opening. This program is beneficial for students who want to study without any social media distractions. Mentioning python project can help your resume look much more interesting than others!,*
+
+**7)Spin a Yarn**
+
+*Things get more interesting here since strings are infinitely more complex to play with at the beginning.
+
+The program first prompts the user to enter a series of inputs. These can be an adjective, a preposition, a proper noun, etc. Once all the inputs are in place, they are placed in a premade story template using concatenation. In the end, the full story is printed out to read some misintended madness!*
+
+**8)What’s the word?**
+
+*This name focuses on the user having to guess the randomly generated word. You can create a list from which the word would have to be guessed and also set a cap on the number of guesses allowed.
+
+After this, you can create the rules yourself! When the user inputs the word, you can indicate whether the alphabet written appears in this particular position or not. You will need a function to check if the user is inputting alphabets or numbers and to display error messages appropriately.*
+
+**9)Reddit Bot**
+
+*This is one of the excellent python project ideas for beginners. Reddit is a handy platform, and many people want to be online as much as they can. You can program a bot that monitors subreddits and reports whenever they find something useful. It will save Redditors a lot of time and provide helpful information with it.*
+
