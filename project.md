@@ -22,4 +22,4 @@
 
 **6)Python Website Blocker**
 
-*When we surf the internet, many unwanted websites keep showing up. This is one of the useful python projects where you can build a program that blocks certain websites from opening. This program is beneficial for students who want to study without any social media distractions. Mentioning python project can help your resume look much more interesting than others.*
+*When we surf the internet, many unwanted websites keep showing up. This is one of the useful python projects where you can build a program that blocks certain websites from opening. This program is beneficial for students who want to study without any social media distractions. Mentioning python project can help your resume look much more interesting than others!,*
