@@ -60,25 +60,22 @@ Post-it notes are an excellent way to note down trivial chores so that you don�
 
 The application should have an option for account creation, different layouts for post-it notes, and a categorization feature to allow users to segment their notes. You can consider using Django for this project since it has an in-built user authentication feature.
 
-**15)Site Connectivity Checker**
+## 15) Site Connectivity Checker
 
-*The job of a site connectivity checker is to visit a URL and display the status of that URL, that is, whether or not it is a live URL. Usually, site connectivity checkers visit URLs at regular intervals and return the results each time. This project will work on the same lines – it will check the live status of URLs. Site connectivity checker is one of the interesting python projects for beginners.
+The job of a site connectivity checker is to visit a URL and display the status of that URL, that is, whether or not it is a live URL. Usually, site connectivity checkers visit URLs at regular intervals and return the results each time. This project will work on the same lines – it will check the live status of URLs. Site connectivity checker is one of the interesting python projects for beginners.
 
-You must design the code for this application from scratch. As for your connections, you can either opt for TCP or ICMP. You can use click, docopt, or argparse frameworks for adding commands that will enable users to add and delete URLs from the list of URLs they want to check. *
+You must design the code for this application from scratch. As for your connections, you can either opt for TCP or ICMP. You can use click, docopt, or argparse frameworks for adding commands that will enable users to add and delete URLs from the list of URLs they want to check.
 
-**16)Content Aggregator**
+## 16) Content Aggregator
 
-*The internet is filled with websites, articles, and information. When we want to find something, it is tough to go through each of them. For this use, you can create a content aggregator that automatically searches popular websites and looks for relevant content and then complies with all the content and lets the user choose which content they want. It is very much like Google but unbiased. And this is the perfect idea for your next python project!*
+The internet is filled with websites, articles, and information. When we want to find something, it is tough to go through each of them. For this use, you can create a content aggregator that automatically searches popular websites and looks for relevant content and then complies with all the content and lets the user choose which content they want. It is very much like Google but unbiased. And this is the perfect idea for your next python project!
 
-**17)Image Resize Application**
+## 17) Image Resize Application
 
-*This is an advanced project which needs you to be well-versed in Machine Learning. We will begin by teaching the program on how to pre-process data, then perform a few resize and rename images tasks. As the program starts learning, it can handle bulk functions at once.*
+This is an advanced project which needs you to be well-versed in Machine Learning. We will begin by teaching the program on how to pre-process data, then perform a few resize and rename images tasks. As the program starts learning, it can handle bulk functions at once.
 
-**18)Python File Explorer**
+## 18)Python File Explorer
 
-*This is a significant project as it will test your knowledge on the various concepts of Python. You need to build an app that anyone uses to explore the files in their system. You can also add features like searching and copy-paste. Tkinter is a commendable choice for this project as it makes the development of GUI applications fast and easy.
+Here you'll need to build an app that anyone uses to explore the files in their system. You can also add features like searching and copy-paste. Tkinter is a commendable choice for this project as it makes the development of GUI applications fast and easy.
 
-To create the Python File Explorer using Tkinter, you have to import the filedialog module from Tkinter. This module is designed for opening files and directories and saving them.*
-
-
-
+To create the Python File Explorer using Tkinter, you have to import the filedialog module from Tkinter. This module is designed for opening files and directories and saving them.
