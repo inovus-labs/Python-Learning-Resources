@@ -1,7 +1,7 @@
-## **Rock-Paper-Scissors Game**
+## **Reverse a String using For Loop**
+Here, we call a function to reverse a string, which iterates through every element using **for loop** and joins each character to the beginning so as to obtain the reversed string.
 
 ### **Source Code**
-
 #### **main.py**
 ```py
 def reverse(s):
