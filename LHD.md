@@ -28,3 +28,19 @@ print("Warning : Minimum fixed to '0'")
 x = int(time.time())
 print("The Random Number is : ", rand_val(x))
 ```
+
+```py
+def test(strs):
+  strs.sort()
+  return strs
+
+strs = input("Enter the list words be sorted : ")
+print("\nThe original list is :", strs)
+
+strs = strs.split(", ")
+print("The sorted list is :", test(strs))
+print("\nThe sorted order is : ", end = " ")
+
+for x in strs :
+  print(x, ",", end = " ")
+```
