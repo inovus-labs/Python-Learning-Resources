@@ -1,4 +1,20 @@
 ```py
+def reverse(s):
+  str = ""
+  for i in s:
+    str = i + str
+  return str
+  
+s = input("\nEnter the string to be reversed: ")
+  
+print ("\nThe original string  is : ", end="")
+print (s)
+  
+print ("The reversed string is : ", end="")
+print (reverse(s))
+```
+
+```py
 from cryptography.fernet import Fernet
 
 message = input("Enter the Text to be Encrypted : ")
