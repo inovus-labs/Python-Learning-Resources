@@ -123,3 +123,22 @@ print ("\n", calc(n))
 
 #### **Output**
 ![image](https://user-images.githubusercontent.com/44474792/149658235-7eb7ddfe-aa1b-47e3-851b-a84aa6ec2c27.png)
+
+
+## **6) Distance between 2 cities**
+A script that could calculate the distance between 2 cities using Python's **"geopy"** client.
+
+#### **Source Code**
+```py
+from geopy.distance import geodesic
+  
+kochi = (9.9312, 76.2673)
+kottayam = (9.5916, 76.5222)
+
+print("Kochi : ", kochi)
+print("Kottayam : ", kottayam)
+print('Distance b/w Kochi & Kottayam : ', geodesic(kochi, kottayam).km)
+```
+
+#### **Output**
+![image](https://user-images.githubusercontent.com/44474792/149658326-443ee3c0-a4fb-4fdb-8436-be68c2fc6778.png)
