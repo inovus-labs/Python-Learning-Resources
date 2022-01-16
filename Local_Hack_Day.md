@@ -94,7 +94,7 @@ for x in strs :
 
 
 ## **5) Calculate Pi value *(upto Nth digit)***
-It calculates the value of PI up to the 'Nth' digit using **Chudnovsky Algorithm**. Ingeneral cases, it's limited to around 30.
+It calculates the value of PI up to the 'Nth' digit using **Chudnovsky Algorithm**. In general cases, it's limited to around 30.
 
 #### **Source Code**
 
