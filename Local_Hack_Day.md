@@ -17,7 +17,6 @@ print (s)
 print ("The reversed string is : ", end="")
 print (reverse(s))
 ```
-
 #### **Output**
 ![image](https://user-images.githubusercontent.com/44474792/148847443-d9f7b4e4-0029-4e55-a812-cd2178334cea.png)
 
@@ -65,9 +64,9 @@ print("Warning : Minimum fixed to '0'")
 x = int(time.time())
 print("The Random Number is : ", rand_val(x))
 ```
-
 #### **Output**
 ![image](https://user-images.githubusercontent.com/44474792/149502548-c8d3480c-3931-4a82-8a15-39cb306ab51e.png)
+
 
 ## **4) Sort a List**
 The script could accept the list of items from the user & sort it in ascending order *(By default)*.
@@ -92,3 +91,35 @@ for x in strs :
 
 #### **Output**
 ![image](https://user-images.githubusercontent.com/44474792/149502548-c8d3480c-3931-4a82-8a15-39cb306ab51e.png)
+
+
+## **5) Calculate Pi value *(upto Nth digit)***
+It calculates the value of PI up to the 'Nth' digit using **Chudnovsky Algorithm**. Ingeneral cases, it's limited to around 30.
+
+#### **Source Code**
+
+```py
+from math import factorial
+from decimal import Decimal, getcontext
+
+n = int(input('How many digits of PI would you like to have? : '))
+
+getcontext().prec=n+1
+def calc(n):
+    t= Decimal(0)
+    pi = Decimal(0)
+    deno= Decimal(0)
+    k=0
+
+    t=(1)*(factorial(1))*(13591409+545140134*k)
+    deno = factorial(3*k)*(factorial(k)**3)*(640320**(3*k))
+    pi += Decimal(t)/Decimal(deno)
+    pi = pi * Decimal(12) / Decimal(640320 ** Decimal(1.5))
+    pi = 1/pi
+    return pi
+
+print ("\n", calc(n))
+```
+
+#### **Output**
+![image](https://user-images.githubusercontent.com/44474792/149658235-7eb7ddfe-aa1b-47e3-851b-a84aa6ec2c27.png)
