@@ -127,3 +127,14 @@ def script():
 script()
 ```
 
+### How it works
+
+> 1.first you make a folder in your computer.
+2.create a python file with the extension ".py".
+3.copy the code from converter.py .
+4.add the image you want to resize or convert to the folder.
+5.run the code.
+6.if it is not run try to install the pillow library in your system.
+6.you can easily resize or convert the image this way easily.
+7.It will find the image from the folder and choose it to conversion.
+8.You can easily interact with the code because it will show you the way to execute.
