@@ -95,3 +95,4 @@ script()
 ```
 
 ## Working
+you only needed to execute the code after installing all requirements
