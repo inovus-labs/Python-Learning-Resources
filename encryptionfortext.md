@@ -8,6 +8,7 @@ A small python program that encodes and decodes text.
 
 - Python 3
 
+## Code
 ```ino
 from Crypto.Cipher import AES
 from Crypto import Random 
@@ -20,33 +21,22 @@ key = b'this is a 16 key'
 
 iv = Random.new().read(AES.block_size)
 
-
-Use key and iv to initialize AES object, use MODE CFB mode
-
-mycipher AES.new(key, AES.MODE_CFB, iv)
-
-# Add iv (key vector) to the beginning of the encrypted ciphertext
-
-# and transmit it together
+mycipher=AES.new(key, AES.MODE_CFB, iv)
 
 ciphertext = iv + mycipher.encrypt(plain text.encode())
 
- mydecrypt = AES.new(key, AES. MODE CFB, ciphertext[:16])
-
-
+mydecrypt = AES.new(key, AES. MODE CFB, ciphertext[:16])
 
 decrypttext = mydecrypt.decrypt (ciphertext[16:])
 
-#output
 
-file_out = open("encrypted.bin", "wb") file out.write(ciphertext[16:])
-
+file_out = open("encrypted.bin", "wb") 
+file out.write(ciphertext[16:])
 file_out.close()
 
 print("The key k is: ", key)
-
 print("iv is: ", b2a_hex(ciphertext)[:16])
-
 print("The encrypted data is: ", b2a_hex(ciphertext) [16:])
-
 print("The decrypted data is: ", decrypttext.decode())
+
+```
